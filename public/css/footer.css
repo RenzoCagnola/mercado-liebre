@@ -1,0 +1,50 @@
+footer{
+  background-color: white;
+  text-align: center;
+  border: solid 10px white;
+  display: flex;
+
+}
+
+
+.icon-footer{
+  margin-bottom: 10px;
+  text-align: center;
+  color:var(--ligth-blue);
+  margin-top: 10px;
+}
+.copyrigth{
+  text-align: left;
+  color: var(--dark-grey);
+  margin:0;
+  padding: 15px;
+  background-color: #fff;
+  
+  
+}
+
+
+@media (min-width: 1200px){
+    
+  footer{
+   align-items: center;
+    display:flex;
+    
+     
+  }
+  footer article{
+     flex-wrap: nowrap;
+     height: 100%;
+     width: 100%;
+     
+  
+  }
+  footer section {
+    
+    display: flex;
+  }
+  footer section article:hover .icon-footer{
+    color: var(--yellow);
+  }
+    
+}

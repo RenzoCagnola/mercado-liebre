@@ -1,0 +1,117 @@
+#last-visit-section{
+  text-align: left;
+  color: var(--dark-grey);
+  font-size: 24px;
+}
+main {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.product{
+  width: 100%;
+  padding: 20px;
+}
+.product-background{
+   background-color: white;
+   transition: box-shadow 1s;
+}
+
+#off{
+  text-align: left;
+  font-size: 24px;
+  color: var(--dark-grey);
+}
+
+
+.product-info .price{
+  border-top: 1px solid var(--ligth-grey);
+  text-align: left;
+  font-size: 18px;
+  border: 15px;
+  flex-grow:0.3 ;
+}
+.product .product-info .discount{
+  border-top: 1px solid var(--ligth-grey);
+  text-align: left;
+  font-size: 16px;
+  color:var(--green);
+  border: 15px;
+  flex-grow: 1;
+}
+
+.product .product-info .description{
+  border-top: 1px solid var(--ligth-grey);
+  text-align: left;
+  color: var(--dark-grey);
+  font-size: 16px;
+  border: 15px;
+ 
+}
+
+.description{
+  line-height: 25px;
+   transition: display 1s;
+  
+}
+
+
+ .truck-icon{
+  color: var(--green);
+ display: block;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+border: 1px solid var(--green);
+background-color: #FFF;
+border-radius: 50%;
+position: absolute;
+right: 20px;
+top: -15px;
+transition: transform 1s;
+}
+
+.product .product-info {
+  width: 100%;
+  border-top: 1px solid #ebebeb;
+  padding: 15px;
+  position: relative;
+}
+.price-container{
+  display: flex;
+  align-items: center;
+ 
+}
+.product-section{
+    display: flex;
+    flex-wrap: wrap;   
+}
+@media (min-width: 768px){
+   .product .product-info .description{
+ 
+  color: white;
+ 
+   }
+  .product{
+ width: 50%;
+}
+.product:hover .product-background{
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.product:hover .truck-icon{
+  transform: rotate(360deg);
+}
+.product:hover .description{
+  color:var(--dark-grey);;
+}
+
+}
+
+@media (min-width: 1200px){
+     .product{
+   width: 25%;
+  }
+ 
+}

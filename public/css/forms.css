@@ -1,0 +1,106 @@
+:root{
+ --yellow: #EAC926;
+--blue: #03264C;
+--ligth-blue: #1259c3;
+--dark-grey: #666;
+--ligth-grey: #ebebeb;
+--green: #39b54a;
+}
+
+.form{
+  background-color: #ebebeb;
+ 
+}
+form div{
+    text-align: center;
+    line-height: 25px;
+}
+
+.input-login {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  color:var(--dark-grey);
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  width:100%;
+  justify-content: center;
+}
+
+.input-box{
+  padding: 20px;
+}
+.input-button{
+  text-align: center;
+   background-color: var(--ligth-grey);
+  border: none;
+  outline: none;
+  color:white;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 100%;
+  justify-content: center;
+}
+.input-button:hover .button-inp{
+  background-color: #0022AA;
+}
+.input-button a{
+  color: white;
+  width:100%;
+  font-size :20px;
+  text-decoration: none;
+}
+.button-inp{
+   background-color:var(--ligth-blue);
+  border: none;
+  outline: none;
+  color:white;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  width:100%;
+  text-decoration: none;
+  list-style: none;
+  text-decoration-line: none;
+}
+
+.label{
+  display: none;
+}
+
+.input-register{
+    background-color: #fff;
+  border: none;
+  outline: none;
+  color:var(--dark-grey);
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 50%;
+  justify-content: center;
+}
+.user-options{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.user-options label{
+  display: flex;
+  text-align: center;
+  
+}
+.user-options .input-register{
+  display: flex;
+  width: 30px;
+  text-align: center;
+}
+.register-title{
+  font-size: 16px;
+  color: var(--dark-grey);
+}
+
+.error{
+  background-color: red;
+}

@@ -1,0 +1,33 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 12px;
+  
+ 
+}
+
+:root{
+ --yellow: #EAC926;
+--blue: #03264C;
+--ligth-blue: #1259c3;
+--dark-grey: #666;
+--ligth-grey: #ebebeb;
+--green: #39b54a;
+}
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 12px;
+}
+
+body{
+  font-family: roboto;
+  background-color:var(--ligth-grey);
+
+}
+
+
+
