@@ -105,4 +105,7 @@ form div{
   display: none;
   background-color: red;
 }
+.input-register{
+  width: 100%;
+}
 
